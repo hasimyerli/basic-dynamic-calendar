@@ -13,13 +13,13 @@ class calendar {
    private $count_week = 6;
 
    function __construct($_month,$_year) {
-    			   $this->month = $_month;
-			       $this->year = $_year;
-			       $this->hour = date("H");
-			       $this->minute =date("i");
-			       $this->second = date("s");
-             $this->day_name = array("Pzt","Sal","Çar","Per","Cum","Cmt","Paz");
-				     $this->month_name = array('OCAK','ŞUBAT','MART','NİSAN','MAYIS','HAZİRAN','TEMMUZ','AĞUSTOS','EYLÜL','EKİM','KASIM','ARALIK');
+     $this->month = $_month;
+     $this->year = $_year;
+     $this->hour = date("H");
+     $this->minute =date("i");
+     $this->second = date("s");
+     $this->day_name = array("Pzt","Sal","Çar","Per","Cum","Cmt","Paz");
+     $this->month_name = array('OCAK','ŞUBAT','MART','NİSAN','MAYIS','HAZİRAN','TEMMUZ','AĞUSTOS','EYLÜL','EKİM','KASIM','ARALIK');
    }
 
    public function get_month_name($month){
@@ -65,5 +65,6 @@ class calendar {
    					$this->count_week--;
 	   		}
   }
+  
 }
 ?>
