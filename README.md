@@ -24,7 +24,7 @@ else {
 }
 ?>
 ```
-    Not: bu satırı tr arasına yazmalısınız.
+**Not:**  Bu satırı tr arasına yazmalısınız.
 
 Üstteki değişkenleri parametre olarak alır ve aldığı parametrelere göre hesap yapar, parametre almadığı zaman günün tarihini baz alır.
 
