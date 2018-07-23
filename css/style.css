@@ -1,0 +1,117 @@
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.content-background {
+	background: white;
+	opacity: 1;
+ }
+		.calendar-date {
+			padding: 10px 10px 15px 10px;
+			margin: 0px auto;
+			height: auto;
+			font-size: 14px;
+		}
+			.calendar-month-head {
+				padding: 8px 0px;
+				color: #828282;
+				border-bottom: 1px solid #ddd;
+			}
+			.calendar-month-head .left {
+			}
+			.calendar-month-head .right {
+				text-align: right;
+				float: none;
+			}
+			.calendar-month-head .right a{
+				font-weight: bold;
+				margin-left: 1px;
+				padding: 10px;
+				text-decoration: none;
+				color: inherit;
+				cursor: pointer;
+			}
+			.calendar-month-head .right a:hover{
+				background: #555;
+				color: white;
+			}
+			.calendar-day-table {
+				width: 100%;
+				margin-top: 10px;
+			}
+			@media only screen and (max-width: 1000px) {
+				.calendar-day-table {
+					width: 100%;
+				}
+			}
+			.calendar-day-table .tr-th{
+				border: 3px solid #243e77;
+				background-color: #2a4b92;
+				color: white;
+			}
+			.calendar-day-table th {
+				padding: 10px 10px 10px 10px;
+				text-align: center;
+				font-weight: normal;
+			}
+			.calendar-day-table th:hover {
+				cursor: pointer;
+				background: #e92e2e;
+				-webkit-transition: all 0.3s ease;
+				-moz-transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+							}
+			.calendar-day-table td {
+				border: 1px solid #ddd;
+				padding: 15px;
+				text-align: center;
+				-webkit-transition: all 0.3s ease;
+				-moz-transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+			}
+			.calendar-day:hover {
+				background: #e92e2e;
+				color: white;
+				cursor: pointer;
+			}
+			@media only screen and (max-width: 1000px) {
+				.calendar-content {
+					width: 100%;
+					float: left;
+					margin-top: 5px;
+					height: 100%;
+				}
+			}
+			.calendar-header {
+				color: #2a4b92;
+				font-size: 15px;
+				}
+			.calendar-text {
+				color: #434343;
+				font-size: 15px;
+				margin-top: 10px;
+			}
+				@media only screen and (max-width: 1000px) {
+					.calendar-text {
+						margin-left: 0;
+					}
+				}
+			.calendar-text a {
+				background: #555;
+				padding: 8px;
+				border-radius: 3px;
+				color: white;
+				text-decoration: none;
+			}
+			.calendar-text a:hover {
+				background: #2a4b92;
+				color: white;
+				-webkit-transition: all 0.3s ease;
+				-moz-transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+			}
