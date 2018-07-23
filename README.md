@@ -1,9 +1,12 @@
 ### Basic Dynamic Calendar
+<p>
+  <img src="https://hasimyerli.com/projects/images/project-img/calendar1.png">
+</p>
+**Nedir?**
 
-Nedir?
 Dinamik olarak html takvim oluşturur.
 
-Nasıl kullanılır?
+**Nasıl kullanılır?**
 ```php
 <?php
 if (empty($_GET["month"]) || empty($_GET["year"])) {
