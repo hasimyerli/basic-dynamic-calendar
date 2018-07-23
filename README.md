@@ -7,6 +7,9 @@
 
 Dinamik olarak html takvim oluşturur.
 
+**Not:** Projede bazı geliştirmeler daha sonra tekrar düzenlenecek (refactoring).
+
+
 [Demo](https://hasimyerli.com/projects/calendar-class.php)
 
 
