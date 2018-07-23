@@ -50,21 +50,21 @@ class calendar {
   }
 
   public function get_day_of_week() {
-        $this->previousMonth();
-	   		for ($i=1; $i <= $this->last_day; $i++) { // döngü ayın 1.gününden son gününe kadar çalışır.
-	   				if ($this->count_week < 0) { //hafta bitmişe takvim bi alt satırdan yazmaya devam eder.
-	   					echo "</tr><tr>";
-	   					$this->count_week = 6;// hafta bittiğinde bir sonraki satır haftanın başı olacağı için değişkeni tekrar 6 dan başlatıyoruz.
-	   				}
-	   				if ($i == date('d')) { // bugün ayın kaçıncı günüyse onu belirgin olarak seçer.
-	   					echo '<td style="background:#555;color:white;" class="calendar-day">'.$i.'</td>';
-	   				}
-	   				else {
-              echo '<td class="calendar-day">'.$i.'</td>';
-	   				}
-   					$this->count_week--;
-	   		}
+    $this->previousMonth();
+ 		for ($i=1; $i <= $this->last_day; $i++) { // döngü ayın 1.gününden son gününe kadar çalışır.
+ 				if ($this->count_week < 0) { //hafta bitmişe takvim bi alt satırdan yazmaya devam eder.
+ 					echo "</tr><tr>";
+ 					$this->count_week = 6;// hafta bittiğinde bir sonraki satır haftanın başı olacağı için değişkeni tekrar 6 dan başlatıyoruz.
+ 				}
+ 				if ($i == date('d')) { // bugün ayın kaçıncı günüyse onu belirgin olarak seçer.
+ 					echo '<td style="background:#555;color:white;" class="calendar-day">'.$i.'</td>';
+ 				}
+ 				else {
+          echo '<td class="calendar-day">'.$i.'</td>';
+ 				}
+					$this->count_week--;
+ 		}
   }
-  
+
 }
 ?>
